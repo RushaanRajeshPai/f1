@@ -19,8 +19,19 @@ ii. 3D Modelling (threejs)
 
 iii. Basic Driver and Team Standings
     - Driver info
-    - Team Info
+    - Team Info (include past drivers)
 
-iv. Latest News + Technical Info
+iv. Track Info
+    - Length 
+    - Turns Corners
+    - Avg Speeds
+    - Speed Traps
+    - Laps
+    - Map + Photo
+    - Basic race stats at the venue
+    - Trophy at that venue
+    - Visualisation (Think about it)   
 
-v. F1 Trending Memes and Stickers (Think About It)
+v. Latest News + Technical Info
+
+vi. F1 Trending Memes and Stickers (Think About It)
