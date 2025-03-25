@@ -1,4 +1,4 @@
-Formula One Web
+Formula One Website | Rushaan x Svayam
 
 i.Prediction (AI)
 We will predict race standings of upcoming race based on:
