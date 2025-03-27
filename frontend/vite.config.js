@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 
 export default defineConfig({
+  fontfamily:['Titillium Web', 'sans-serif'],
   plugins: [react(), tailwindcss()],
 })

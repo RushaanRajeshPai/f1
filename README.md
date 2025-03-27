@@ -17,11 +17,15 @@ ii. 3D Modelling (threejs)
     - Driver (Maybe)
         ~ Driver info
 
-iii. Basic Driver and Team Standings
-    - Driver info
-    - Team Info (include past drivers)
+iii. Schedule
 
-iv. Track Info
+iv. Standings
+    - Driver 
+        ~ Driver Info 
+    - Constructors
+        ~ Team Info
+
+v. Track Info
     - Length 
     - Turns Corners
     - Avg Speeds
@@ -32,6 +36,6 @@ iv. Track Info
     - Trophy at that venue
     - Visualisation (Think about it)   
 
-v. Latest News + Technical Info
+vi. Latest News + Technical Info
 
-vi. F1 Trending Memes and Stickers (Think About It)
+vii. F1 Trending Memes and Stickers (Think About It)
