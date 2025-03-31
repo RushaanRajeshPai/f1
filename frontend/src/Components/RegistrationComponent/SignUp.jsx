@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import loginbg from "../../Assets/loginbg.jpg";
 import { useNavigate } from "react-router-dom";
 
+
 const SignUp = () => {
   const navigate = useNavigate();
   const [dob, setDob] = useState("");
@@ -133,7 +134,7 @@ const SignUp = () => {
 
           <button
             type="submit"
-            className="font-exo text-lg font-bold uppercase px-6 h-12 bg-white text-black border-2 border-red-500 rounded-full shadow-md hover:bg-red-500 hover:text-black transition-all duration-300 hover:shadow-red-500/50"
+            className="font-exo text-lg font-bold uppercase px-6 h-12 bg-white text-black border-2 border-red-500 rounded-full shadow-md hover:bg-red-500 cursor-pointer hover:text-black transition-all duration-300 hover:shadow-red-500/50"
           >
             Sign Up
           </button>
