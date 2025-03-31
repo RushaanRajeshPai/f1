@@ -7,7 +7,7 @@ const Login = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(${loginbg})`}}>
+      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${loginbg})` }}>
         <form className="font-exo h-100 bg-white p-6 border-2 border-red-500 rounded-3xl shadow-md w-full max-w-sm">
           <div className="mb-4">
             <h1 className="text-4xl font-bold mb-6 flex justify-center">LOGIN</h1>
@@ -45,13 +45,13 @@ const Login = () => {
             Login
           </button>
           <p className="p-2">
-        Don't have an account yet?{" "}
-        <span className="font-semibold cursor-pointer hover:underline underline-offset-4 decoration-red-500" 
-          onClick={() => navigate("/signup")}
-        >
-          "Box! Box!"
-        </span>
-      </p>
+            Don't have an account yet?{" "}
+            <span className="font-semibold cursor-pointer hover:underline underline-offset-4 decoration-red-500"
+              onClick={() => navigate("/signup")}
+            >
+              "Box! Box!"
+            </span>
+          </p>
         </form>
       </div>
     </div>
