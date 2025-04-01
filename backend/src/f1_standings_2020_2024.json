@@ -1,0 +1,954 @@
+{
+  "2020": {
+    "drivers": [
+      {
+        "position": "1",
+        "name": "Lewis Hamilton",
+        "team": "Mercedes",
+        "points": "347"
+      },
+      {
+        "position": "2",
+        "name": "Valtteri Bottas",
+        "team": "Mercedes",
+        "points": "223"
+      },
+      {
+        "position": "3",
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "points": "214"
+      },
+      {
+        "position": "4",
+        "name": "Sergio P\u00e9rez",
+        "team": "Racing Point",
+        "points": "125"
+      },
+      {
+        "position": "5",
+        "name": "Daniel Ricciardo",
+        "team": "Renault",
+        "points": "119"
+      },
+      {
+        "position": "6",
+        "name": "Carlos Sainz",
+        "team": "McLaren",
+        "points": "105"
+      },
+      {
+        "position": "7",
+        "name": "Alexander Albon",
+        "team": "Red Bull",
+        "points": "105"
+      },
+      {
+        "position": "8",
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "points": "98"
+      },
+      {
+        "position": "9",
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "points": "97"
+      },
+      {
+        "position": "10",
+        "name": "Pierre Gasly",
+        "team": "AlphaTauri",
+        "points": "75"
+      },
+      {
+        "position": "11",
+        "name": "Lance Stroll",
+        "team": "Racing Point",
+        "points": "75"
+      },
+      {
+        "position": "12",
+        "name": "Esteban Ocon",
+        "team": "Renault",
+        "points": "62"
+      },
+      {
+        "position": "13",
+        "name": "Sebastian Vettel",
+        "team": "Ferrari",
+        "points": "33"
+      },
+      {
+        "position": "14",
+        "name": "Daniil Kvyat",
+        "team": "AlphaTauri",
+        "points": "32"
+      },
+      {
+        "position": "15",
+        "name": "Nico H\u00fclkenberg",
+        "team": "Racing Point",
+        "points": "10"
+      },
+      {
+        "position": "16",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
+        "team": "Alfa Romeo",
+        "points": "4"
+      },
+      {
+        "position": "17",
+        "name": "Antonio Giovinazzi",
+        "team": "Alfa Romeo",
+        "points": "4"
+      },
+      {
+        "position": "18",
+        "name": "George Russell",
+        "team": "Williams",
+        "points": "3"
+      },
+      {
+        "position": "19",
+        "name": "Romain Grosjean",
+        "team": "Haas F1 Team",
+        "points": "2"
+      },
+      {
+        "position": "20",
+        "name": "Kevin Magnussen",
+        "team": "Haas F1 Team",
+        "points": "1"
+      },
+      {
+        "position": "21",
+        "name": "Nicholas Latifi",
+        "team": "Williams",
+        "points": "0"
+      },
+      {
+        "position": "22",
+        "name": "Jack Aitken",
+        "team": "Williams",
+        "points": "0"
+      },
+      {
+        "position": "23",
+        "name": "Pietro Fittipaldi",
+        "team": "Haas F1 Team",
+        "points": "0"
+      }
+    ],
+    "teams": [
+      {
+        "position": "1",
+        "name": "Mercedes",
+        "points": "573"
+      },
+      {
+        "position": "2",
+        "name": "Red Bull",
+        "points": "319"
+      },
+      {
+        "position": "3",
+        "name": "McLaren",
+        "points": "202"
+      },
+      {
+        "position": "4",
+        "name": "Racing Point",
+        "points": "195"
+      },
+      {
+        "position": "5",
+        "name": "Renault",
+        "points": "181"
+      },
+      {
+        "position": "6",
+        "name": "Ferrari",
+        "points": "131"
+      },
+      {
+        "position": "7",
+        "name": "AlphaTauri",
+        "points": "107"
+      },
+      {
+        "position": "8",
+        "name": "Alfa Romeo",
+        "points": "8"
+      },
+      {
+        "position": "9",
+        "name": "Haas F1 Team",
+        "points": "3"
+      },
+      {
+        "position": "10",
+        "name": "Williams",
+        "points": "0"
+      }
+    ]
+  },
+  "2021": {
+    "drivers": [
+      {
+        "position": "1",
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "points": "395.5"
+      },
+      {
+        "position": "2",
+        "name": "Lewis Hamilton",
+        "team": "Mercedes",
+        "points": "387.5"
+      },
+      {
+        "position": "3",
+        "name": "Valtteri Bottas",
+        "team": "Mercedes",
+        "points": "226"
+      },
+      {
+        "position": "4",
+        "name": "Sergio P\u00e9rez",
+        "team": "Red Bull",
+        "points": "190"
+      },
+      {
+        "position": "5",
+        "name": "Carlos Sainz",
+        "team": "Ferrari",
+        "points": "164.5"
+      },
+      {
+        "position": "6",
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "points": "160"
+      },
+      {
+        "position": "7",
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "points": "159"
+      },
+      {
+        "position": "8",
+        "name": "Daniel Ricciardo",
+        "team": "McLaren",
+        "points": "115"
+      },
+      {
+        "position": "9",
+        "name": "Pierre Gasly",
+        "team": "AlphaTauri",
+        "points": "110"
+      },
+      {
+        "position": "10",
+        "name": "Fernando Alonso",
+        "team": "Alpine F1 Team",
+        "points": "81"
+      },
+      {
+        "position": "11",
+        "name": "Esteban Ocon",
+        "team": "Alpine F1 Team",
+        "points": "74"
+      },
+      {
+        "position": "12",
+        "name": "Sebastian Vettel",
+        "team": "Aston Martin",
+        "points": "43"
+      },
+      {
+        "position": "13",
+        "name": "Lance Stroll",
+        "team": "Aston Martin",
+        "points": "34"
+      },
+      {
+        "position": "14",
+        "name": "Yuki Tsunoda",
+        "team": "AlphaTauri",
+        "points": "32"
+      },
+      {
+        "position": "15",
+        "name": "George Russell",
+        "team": "Williams",
+        "points": "16"
+      },
+      {
+        "position": "16",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
+        "team": "Alfa Romeo",
+        "points": "10"
+      },
+      {
+        "position": "17",
+        "name": "Nicholas Latifi",
+        "team": "Williams",
+        "points": "7"
+      },
+      {
+        "position": "18",
+        "name": "Antonio Giovinazzi",
+        "team": "Alfa Romeo",
+        "points": "3"
+      },
+      {
+        "position": "19",
+        "name": "Mick Schumacher",
+        "team": "Haas F1 Team",
+        "points": "0"
+      },
+      {
+        "position": "20",
+        "name": "Robert Kubica",
+        "team": "Alfa Romeo",
+        "points": "0"
+      },
+      {
+        "position": "21",
+        "name": "Nikita Mazepin",
+        "team": "Haas F1 Team",
+        "points": "0"
+      }
+    ],
+    "teams": [
+      {
+        "position": "1",
+        "name": "Mercedes",
+        "points": "613.5"
+      },
+      {
+        "position": "2",
+        "name": "Red Bull",
+        "points": "585.5"
+      },
+      {
+        "position": "3",
+        "name": "Ferrari",
+        "points": "323.5"
+      },
+      {
+        "position": "4",
+        "name": "McLaren",
+        "points": "275"
+      },
+      {
+        "position": "5",
+        "name": "Alpine F1 Team",
+        "points": "155"
+      },
+      {
+        "position": "6",
+        "name": "AlphaTauri",
+        "points": "142"
+      },
+      {
+        "position": "7",
+        "name": "Aston Martin",
+        "points": "77"
+      },
+      {
+        "position": "8",
+        "name": "Williams",
+        "points": "23"
+      },
+      {
+        "position": "9",
+        "name": "Alfa Romeo",
+        "points": "13"
+      },
+      {
+        "position": "10",
+        "name": "Haas F1 Team",
+        "points": "0"
+      }
+    ]
+  },
+  "2022": {
+    "drivers": [
+      {
+        "position": "1",
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "points": "454"
+      },
+      {
+        "position": "2",
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "points": "308"
+      },
+      {
+        "position": "3",
+        "name": "Sergio P\u00e9rez",
+        "team": "Red Bull",
+        "points": "305"
+      },
+      {
+        "position": "4",
+        "name": "George Russell",
+        "team": "Mercedes",
+        "points": "275"
+      },
+      {
+        "position": "5",
+        "name": "Carlos Sainz",
+        "team": "Ferrari",
+        "points": "246"
+      },
+      {
+        "position": "6",
+        "name": "Lewis Hamilton",
+        "team": "Mercedes",
+        "points": "240"
+      },
+      {
+        "position": "7",
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "points": "122"
+      },
+      {
+        "position": "8",
+        "name": "Esteban Ocon",
+        "team": "Alpine F1 Team",
+        "points": "92"
+      },
+      {
+        "position": "9",
+        "name": "Fernando Alonso",
+        "team": "Alpine F1 Team",
+        "points": "81"
+      },
+      {
+        "position": "10",
+        "name": "Valtteri Bottas",
+        "team": "Alfa Romeo",
+        "points": "49"
+      },
+      {
+        "position": "11",
+        "name": "Daniel Ricciardo",
+        "team": "McLaren",
+        "points": "37"
+      },
+      {
+        "position": "12",
+        "name": "Sebastian Vettel",
+        "team": "Aston Martin",
+        "points": "37"
+      },
+      {
+        "position": "13",
+        "name": "Kevin Magnussen",
+        "team": "Haas F1 Team",
+        "points": "25"
+      },
+      {
+        "position": "14",
+        "name": "Pierre Gasly",
+        "team": "AlphaTauri",
+        "points": "23"
+      },
+      {
+        "position": "15",
+        "name": "Lance Stroll",
+        "team": "Aston Martin",
+        "points": "18"
+      },
+      {
+        "position": "16",
+        "name": "Mick Schumacher",
+        "team": "Haas F1 Team",
+        "points": "12"
+      },
+      {
+        "position": "17",
+        "name": "Yuki Tsunoda",
+        "team": "AlphaTauri",
+        "points": "12"
+      },
+      {
+        "position": "18",
+        "name": "Guanyu Zhou",
+        "team": "Alfa Romeo",
+        "points": "6"
+      },
+      {
+        "position": "19",
+        "name": "Alexander Albon",
+        "team": "Williams",
+        "points": "4"
+      },
+      {
+        "position": "20",
+        "name": "Nicholas Latifi",
+        "team": "Williams",
+        "points": "2"
+      },
+      {
+        "position": "21",
+        "name": "Nyck de Vries",
+        "team": "Williams",
+        "points": "2"
+      },
+      {
+        "position": "22",
+        "name": "Nico H\u00fclkenberg",
+        "team": "Aston Martin",
+        "points": "0"
+      }
+    ],
+    "teams": [
+      {
+        "position": "1",
+        "name": "Red Bull",
+        "points": "759"
+      },
+      {
+        "position": "2",
+        "name": "Ferrari",
+        "points": "554"
+      },
+      {
+        "position": "3",
+        "name": "Mercedes",
+        "points": "515"
+      },
+      {
+        "position": "4",
+        "name": "Alpine F1 Team",
+        "points": "173"
+      },
+      {
+        "position": "5",
+        "name": "McLaren",
+        "points": "159"
+      },
+      {
+        "position": "6",
+        "name": "Alfa Romeo",
+        "points": "55"
+      },
+      {
+        "position": "7",
+        "name": "Aston Martin",
+        "points": "55"
+      },
+      {
+        "position": "8",
+        "name": "Haas F1 Team",
+        "points": "37"
+      },
+      {
+        "position": "9",
+        "name": "AlphaTauri",
+        "points": "35"
+      },
+      {
+        "position": "10",
+        "name": "Williams",
+        "points": "8"
+      }
+    ]
+  },
+  "2023": {
+    "drivers": [
+      {
+        "position": "1",
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "points": "575"
+      },
+      {
+        "position": "2",
+        "name": "Sergio P\u00e9rez",
+        "team": "Red Bull",
+        "points": "285"
+      },
+      {
+        "position": "3",
+        "name": "Lewis Hamilton",
+        "team": "Mercedes",
+        "points": "234"
+      },
+      {
+        "position": "4",
+        "name": "Fernando Alonso",
+        "team": "Aston Martin",
+        "points": "206"
+      },
+      {
+        "position": "5",
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "points": "206"
+      },
+      {
+        "position": "6",
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "points": "205"
+      },
+      {
+        "position": "7",
+        "name": "Carlos Sainz",
+        "team": "Ferrari",
+        "points": "200"
+      },
+      {
+        "position": "8",
+        "name": "George Russell",
+        "team": "Mercedes",
+        "points": "175"
+      },
+      {
+        "position": "9",
+        "name": "Oscar Piastri",
+        "team": "McLaren",
+        "points": "97"
+      },
+      {
+        "position": "10",
+        "name": "Lance Stroll",
+        "team": "Aston Martin",
+        "points": "74"
+      },
+      {
+        "position": "11",
+        "name": "Pierre Gasly",
+        "team": "Alpine F1 Team",
+        "points": "62"
+      },
+      {
+        "position": "12",
+        "name": "Esteban Ocon",
+        "team": "Alpine F1 Team",
+        "points": "58"
+      },
+      {
+        "position": "13",
+        "name": "Alexander Albon",
+        "team": "Williams",
+        "points": "27"
+      },
+      {
+        "position": "14",
+        "name": "Yuki Tsunoda",
+        "team": "AlphaTauri",
+        "points": "17"
+      },
+      {
+        "position": "15",
+        "name": "Valtteri Bottas",
+        "team": "Alfa Romeo",
+        "points": "10"
+      },
+      {
+        "position": "16",
+        "name": "Nico H\u00fclkenberg",
+        "team": "Haas F1 Team",
+        "points": "9"
+      },
+      {
+        "position": "17",
+        "name": "Daniel Ricciardo",
+        "team": "AlphaTauri",
+        "points": "6"
+      },
+      {
+        "position": "18",
+        "name": "Guanyu Zhou",
+        "team": "Alfa Romeo",
+        "points": "6"
+      },
+      {
+        "position": "19",
+        "name": "Kevin Magnussen",
+        "team": "Haas F1 Team",
+        "points": "3"
+      },
+      {
+        "position": "20",
+        "name": "Liam Lawson",
+        "team": "AlphaTauri",
+        "points": "2"
+      },
+      {
+        "position": "21",
+        "name": "Logan Sargeant",
+        "team": "Williams",
+        "points": "1"
+      },
+      {
+        "position": "22",
+        "name": "Nyck de Vries",
+        "team": "AlphaTauri",
+        "points": "0"
+      }
+    ],
+    "teams": [
+      {
+        "position": "1",
+        "name": "Red Bull",
+        "points": "860"
+      },
+      {
+        "position": "2",
+        "name": "Mercedes",
+        "points": "409"
+      },
+      {
+        "position": "3",
+        "name": "Ferrari",
+        "points": "406"
+      },
+      {
+        "position": "4",
+        "name": "McLaren",
+        "points": "302"
+      },
+      {
+        "position": "5",
+        "name": "Aston Martin",
+        "points": "280"
+      },
+      {
+        "position": "6",
+        "name": "Alpine F1 Team",
+        "points": "120"
+      },
+      {
+        "position": "7",
+        "name": "Williams",
+        "points": "28"
+      },
+      {
+        "position": "8",
+        "name": "AlphaTauri",
+        "points": "25"
+      },
+      {
+        "position": "9",
+        "name": "Alfa Romeo",
+        "points": "16"
+      },
+      {
+        "position": "10",
+        "name": "Haas F1 Team",
+        "points": "12"
+      }
+    ]
+  },
+  "2024": {
+    "drivers": [
+      {
+        "position": "1",
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "points": "437"
+      },
+      {
+        "position": "2",
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "points": "374"
+      },
+      {
+        "position": "3",
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "points": "356"
+      },
+      {
+        "position": "4",
+        "name": "Oscar Piastri",
+        "team": "McLaren",
+        "points": "292"
+      },
+      {
+        "position": "5",
+        "name": "Carlos Sainz",
+        "team": "Ferrari",
+        "points": "290"
+      },
+      {
+        "position": "6",
+        "name": "George Russell",
+        "team": "Mercedes",
+        "points": "245"
+      },
+      {
+        "position": "7",
+        "name": "Lewis Hamilton",
+        "team": "Mercedes",
+        "points": "223"
+      },
+      {
+        "position": "8",
+        "name": "Sergio P\u00e9rez",
+        "team": "Red Bull",
+        "points": "152"
+      },
+      {
+        "position": "9",
+        "name": "Fernando Alonso",
+        "team": "Aston Martin",
+        "points": "70"
+      },
+      {
+        "position": "10",
+        "name": "Pierre Gasly",
+        "team": "Alpine F1 Team",
+        "points": "42"
+      },
+      {
+        "position": "11",
+        "name": "Nico H\u00fclkenberg",
+        "team": "Haas F1 Team",
+        "points": "41"
+      },
+      {
+        "position": "12",
+        "name": "Yuki Tsunoda",
+        "team": "RB F1 Team",
+        "points": "30"
+      },
+      {
+        "position": "13",
+        "name": "Lance Stroll",
+        "team": "Aston Martin",
+        "points": "24"
+      },
+      {
+        "position": "14",
+        "name": "Esteban Ocon",
+        "team": "Alpine F1 Team",
+        "points": "23"
+      },
+      {
+        "position": "15",
+        "name": "Kevin Magnussen",
+        "team": "Haas F1 Team",
+        "points": "16"
+      },
+      {
+        "position": "16",
+        "name": "Alexander Albon",
+        "team": "Williams",
+        "points": "12"
+      },
+      {
+        "position": "17",
+        "name": "Daniel Ricciardo",
+        "team": "RB F1 Team",
+        "points": "12"
+      },
+      {
+        "position": "18",
+        "name": "Oliver Bearman",
+        "team": "Ferrari",
+        "points": "7"
+      },
+      {
+        "position": "19",
+        "name": "Franco Colapinto",
+        "team": "Williams",
+        "points": "5"
+      },
+      {
+        "position": "20",
+        "name": "Guanyu Zhou",
+        "team": "Sauber",
+        "points": "4"
+      },
+      {
+        "position": "21",
+        "name": "Liam Lawson",
+        "team": "RB F1 Team",
+        "points": "4"
+      },
+      {
+        "position": "22",
+        "name": "Valtteri Bottas",
+        "team": "Sauber",
+        "points": "0"
+      },
+      {
+        "position": "23",
+        "name": "Logan Sargeant",
+        "team": "Williams",
+        "points": "0"
+      },
+      {
+        "position": "24",
+        "name": "Jack Doohan",
+        "team": "Alpine F1 Team",
+        "points": "0"
+      }
+    ],
+    "teams": [
+      {
+        "position": "1",
+        "name": "McLaren",
+        "points": "666"
+      },
+      {
+        "position": "2",
+        "name": "Ferrari",
+        "points": "652"
+      },
+      {
+        "position": "3",
+        "name": "Red Bull",
+        "points": "589"
+      },
+      {
+        "position": "4",
+        "name": "Mercedes",
+        "points": "468"
+      },
+      {
+        "position": "5",
+        "name": "Aston Martin",
+        "points": "94"
+      },
+      {
+        "position": "6",
+        "name": "Alpine F1 Team",
+        "points": "65"
+      },
+      {
+        "position": "7",
+        "name": "Haas F1 Team",
+        "points": "58"
+      },
+      {
+        "position": "8",
+        "name": "RB F1 Team",
+        "points": "46"
+      },
+      {
+        "position": "9",
+        "name": "Williams",
+        "points": "17"
+      },
+      {
+        "position": "10",
+        "name": "Sauber",
+        "points": "4"
+      }
+    ]
+  }
+}
