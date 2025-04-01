@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import loginbg from "../../Assets/loginbg.jpg";
 import { useNavigate } from "react-router-dom";
 
-
 const SignUp = () => {
   const navigate = useNavigate();
   const [dob, setDob] = useState("");

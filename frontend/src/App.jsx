@@ -2,16 +2,18 @@ import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-route
 import Navbar from './Components/Navbar.jsx'
 import Login from './Components/RegistrationComponent/Login.jsx'
 import SignUp from './Components/RegistrationComponent/SignUp.jsx'
+import Standings from './Components/Standings.jsx'
 
 function App() {
 
   return (
     <>
       <Router>
-      <Navbar />
+        <Navbar />
         <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/standings" element={<Standings />} />
         </Routes>
       </Router>
     </>

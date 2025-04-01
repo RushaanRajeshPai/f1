@@ -1,21 +1,24 @@
-//DUMMY FILE TO CHECK IF SERVER IS RUNNING
+const express = require('express');
+const cors = require('cors');
+const path = require('path');
+const f1StandingsRouter = require('./routes/f1standings');
 
-// require('dotenv').config();
-// const express = require('express');
-// const cors = require('cors');
+const app = express();
+const PORT = process.env.PORT || 5000;
 
-// const app = express();
-// app.use(cors());
-// app.use(express.json()); // Middleware for JSON parsing
+// Middleware
+app.use(cors());
+app.use(express.json());
 
-// const PORT = process.env.PORT || 5000;
+// Routes
+app.use('/api', f1StandingsRouter);
 
-// // Test Route
-// app.get('/', (req, res) => {
-//     res.send('Backend is running...');
-// });
+// Basic route
+app.get('/', (req, res) => {
+  res.send('F1 Standings API is running');
+});
 
-// // Start Server
-// app.listen(PORT, () => {
-//     console.log(`Server running on port ${PORT}`);
-// });
+// Start server
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
