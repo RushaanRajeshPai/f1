@@ -1,8 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import Navbar from './Components/Navbar.jsx'
+import Home from './Components/Home.jsx'
 import Login from './Components/RegistrationComponent/Login.jsx'
 import SignUp from './Components/RegistrationComponent/SignUp.jsx'
 import Standings from './Components/Standings.jsx'
+import Predict from "./Components/Predict.jsx";
 
 function App() {
 
@@ -11,6 +13,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/predict" element={<Predict/>} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/standings" element={<Standings />} />
