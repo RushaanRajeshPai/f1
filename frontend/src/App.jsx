@@ -6,6 +6,9 @@ import SignUp from './Components/RegistrationComponent/SignUp.jsx'
 import Standings from './Components/Standings.jsx'
 import Predict from "./Components/Predict.jsx";
 
+import Venues from './Components/VenuesComponent/Venues.jsx'
+
+
 function App() {
 
   return (
@@ -15,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/predict" element={<Predict/>} />
+          <Route path="/venue" element={<Venues />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/standings" element={<Standings />} />

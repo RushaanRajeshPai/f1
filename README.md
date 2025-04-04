@@ -27,13 +27,15 @@ iv. Standings
 
 v. Track Info
     - Length 
-    - Turns Corners
+    - No of Turns and Corners
     - Avg Speeds
     - Speed Traps
-    - Laps
+    - No of Laps
     - Map + Photo
-    - Basic race stats at the venue
-    - Trophy at that venue
+    - No. of Races
+    - Most memorable Race
+    - Driver with most wins at that Race
+    - Trophy (pic) at that venue
     - Visualisation (Think about it)   
 
 vi. Latest News + Technical Info
