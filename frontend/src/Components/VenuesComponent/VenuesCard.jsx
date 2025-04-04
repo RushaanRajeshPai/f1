@@ -46,6 +46,23 @@ import dutchtrophy from '../../assets/dutchtrophy.jpeg';
 import monzatrack from '../../assets/monzatrack.jpeg';
 import monzacircuit from '../../assets/monzacircuit.jpeg';
 import monzatrophy from '../../assets/monzatrophy.jpg';
+import bakutrack from '../../assets/bakutrack.jpeg';
+import bakucircuit from '../../assets/bakucircuit.jpeg';
+import bakutrophy from '../../assets/bakutrophy.jpeg';
+import singaporetrack from '../../assets/singaporetrack.jpeg';
+import singaporecircuit from '../../assets/singaporecircuit.jpeg';
+import singaporetrophy from '../../assets/singaporetrophy.jpeg';
+import ustrack from '../../assets/ustrack.jpeg';
+import uscircuit from '../../assets/uscircuit.jpeg';
+import ustrophy from '../../assets/ustrophy.jpeg';
+import mexicotrack from '../../assets/mexicotrack.png';
+import mexicocircuit from '../../assets/mexicocircuit.jpeg';
+import mexicotrophy from '../../assets/mexicotrophy.jpeg';
+import braziltrack from '../../assets/braziltrack.png';
+import brazilcircuit from '../../assets/brazilcircuit.jpeg';
+import braziltrophy from '../../assets/braziltrophy.jpeg';
+
+
 
 const TrackCard = () => {
     return (
@@ -1019,6 +1036,306 @@ const TrackCard = () => {
                     </div>
                 </div>
             </div>
+            <div className="max-w-4xl mx-auto mt-10 bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
+                {/* Header */}
+                <div className="bg-cyan-700 text-white px-6 py-4">
+                    <h2 className="text-3xl font-bold">Azerbaijan Grand Prix</h2>
+                    <p className="text-sm opacity-90">Baku City Circuit, Azerbaijan</p>
+                </div>
+
+                {/* Media Section */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-6 pt-6">
+                    <div>
+                        <p className="text-sm text-gray-600 mb-2">Track Layout</p>
+                        <img
+                            src={bakutrack}
+                            alt="Baku Track Layout"
+                            className="rounded-lg w-full h-95"
+                        />
+                    </div>
+                    <div>
+                        <p className="text-sm text-gray-600 mb-2">Circuit Photo</p>
+                        <img
+                            src={bakucircuit}
+                            alt="Baku Circuit"
+                            className="rounded-lg w-full h-95"
+                        />
+                    </div>
+                    <div>
+                        <p className="text-sm text-gray-600 mb-2">Trophy</p>
+                        <img
+                            src={bakutrophy}
+                            alt="Baku GP Trophy"
+                            className="rounded-lg w-full h-95"
+                        />
+                    </div>
+                </div>
+
+                {/* Description */}
+                <div className="px-6 pt-4">
+                    <p className="text-gray-700 text-base mb-4">
+                        <strong>Description:</strong> Baku combines the tight castle-section streets with one of the longest straights in F1. It’s a street circuit that regularly delivers chaotic races, unexpected winners, and dramatic late-race moments. High risk, high reward.
+                    </p>
+                </div>
+
+                {/* Track Info Section */}
+                <div className="px-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <p className="text-gray-700"><strong>Track Length:</strong> 6.003 km</p>
+                        <p className="text-gray-700"><strong>No. of Turns:</strong> 20</p>
+                        <p className="text-gray-700"><strong>Avg Speeds:</strong> ~215 km/h</p>
+                        <p className="text-gray-700"><strong>Speed Traps:</strong> 2</p>
+                        <p className="text-gray-700"><strong>No. of Laps:</strong> 51</p>
+                        <p className="text-gray-700"><strong>No. of Races:</strong> 7 (as of 2024)</p>
+                    </div>
+
+                    <div>
+                        <p className="text-gray-700"><strong>Opened:</strong> 2016</p>
+                        <p className="text-gray-700"><strong>Most Memorable Race:</strong> 2021 – Verstappen tire failure + Hamilton brakes error</p>
+                        <p className="text-gray-700"><strong>Driver with Most Wins:</strong> Sergio Perez (2)</p>
+                    </div>
+                </div>
+            </div>
+            <div className="max-w-4xl mx-auto mt-10 bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
+                {/* Header */}
+                <div className="bg-indigo-800 text-white px-6 py-4">
+                    <h2 className="text-3xl font-bold">Singapore Grand Prix</h2>
+                    <p className="text-sm opacity-90">Marina Bay Street Circuit, Singapore</p>
+                </div>
+
+                {/* Media Section */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-6 pt-6">
+                    <div>
+                        <p className="text-sm text-gray-600 mb-2">Track Layout</p>
+                        <img
+                            src={singaporetrack}
+                            alt="Singapore Track Layout"
+                            className="rounded-lg w-full h-95"
+                        />
+                    </div>
+                    <div>
+                        <p className="text-sm text-gray-600 mb-2">Circuit Photo</p>
+                        <img
+                            src={singaporecircuit}
+                            alt="Singapore Circuit"
+                            className="rounded-lg w-full h-95"
+                        />
+                    </div>
+                    <div>
+                        <p className="text-sm text-gray-600 mb-2">Trophy</p>
+                        <img
+                            src={singaporetrophy}
+                            alt="Singapore GP Trophy"
+                            className="rounded-lg w-full h-95"
+                        />
+                    </div>
+                </div>
+
+                {/* Description */}
+                <div className="px-6 pt-4">
+                    <p className="text-gray-700 text-base mb-4">
+                        <strong>Description:</strong> Singapore hosted F1’s first-ever night race and is one of the most physically demanding on the calendar. With 90-degree corners, humid weather, and unforgiving walls, Marina Bay is a true test of endurance and focus under the lights.
+                    </p>
+                </div>
+
+                {/* Track Info Section */}
+                <div className="px-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <p className="text-gray-700"><strong>Track Length:</strong> 4.940 km</p>
+                        <p className="text-gray-700"><strong>No. of Turns:</strong> 19</p>
+                        <p className="text-gray-700"><strong>Avg Speeds:</strong> ~170 km/h</p>
+                        <p className="text-gray-700"><strong>Speed Traps:</strong> 1</p>
+                        <p className="text-gray-700"><strong>No. of Laps:</strong> 62</p>
+                        <p className="text-gray-700"><strong>No. of Races:</strong> 14 (as of 2024)</p>
+                    </div>
+
+                    <div>
+                        <p className="text-gray-700"><strong>Opened:</strong> 2008</p>
+                        <p className="text-gray-700"><strong>Most Memorable Race:</strong> 2008 – Controversial “Crashgate” involving Renault & Piquet Jr.</p>
+                        <p className="text-gray-700"><strong>Driver with Most Wins:</strong> Sebastian Vettel (5)</p>
+                    </div>
+                </div>
+            </div>
+            <div className="max-w-4xl mx-auto mt-10 bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
+                {/* Header */}
+                <div className="bg-blue-800 text-white px-6 py-4">
+                    <h2 className="text-3xl font-bold">United States Grand Prix</h2>
+                    <p className="text-sm opacity-90">Circuit of the Americas (COTA), Austin, Texas</p>
+                </div>
+
+                {/* Media Section */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-6 pt-6">
+                    <div>
+                        <p className="text-sm text-gray-600 mb-2">Track Layout</p>
+                        <img
+                            src={ustrack}
+                            alt="COTA Track Layout"
+                            className="rounded-lg w-full h-95"
+                        />
+                    </div>
+                    <div>
+                        <p className="text-sm text-gray-600 mb-2">Circuit Photo</p>
+                        <img
+                            src={uscircuit}
+                            alt="COTA Circuit"
+                            className="rounded-lg w-full h-95"
+                        />
+                    </div>
+                    <div>
+                        <p className="text-sm text-gray-600 mb-2">Trophy</p>
+                        <img
+                            src={ustrophy}
+                            alt="US GP Trophy"
+                            className="rounded-lg w-full h-95"
+                        />
+                    </div>
+                </div>
+
+                {/* Description */}
+                <div className="px-6 pt-4">
+                    <p className="text-gray-700 text-base mb-4">
+                        <strong>Description:</strong> COTA is a modern classic, featuring elevation changes, flowing corners inspired by Silverstone and Suzuka, and the iconic uphill Turn 1. It’s known for great racing, strong fan turnout, and a perfect blend of technical and fast sections.
+                    </p>
+                </div>
+
+                {/* Track Info Section */}
+                <div className="px-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <p className="text-gray-700"><strong>Track Length:</strong> 5.513 km</p>
+                        <p className="text-gray-700"><strong>No. of Turns:</strong> 20</p>
+                        <p className="text-gray-700"><strong>Avg Speeds:</strong> ~210 km/h</p>
+                        <p className="text-gray-700"><strong>Speed Traps:</strong> 2</p>
+                        <p className="text-gray-700"><strong>No. of Laps:</strong> 56</p>
+                        <p className="text-gray-700"><strong>No. of Races:</strong> 11 (since 2012)</p>
+                    </div>
+
+                    <div>
+                        <p className="text-gray-700"><strong>Opened:</strong> 2012</p>
+                        <p className="text-gray-700"><strong>Most Memorable Race:</strong> 2018 – Kimi Räikkönen’s legendary win for Ferrari</p>
+                        <p className="text-gray-700"><strong>Driver with Most Wins:</strong> Lewis Hamilton (5)</p>
+                    </div>
+                </div>
+            </div>
+            <div className="max-w-4xl mx-auto mt-10 bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
+                {/* Header */}
+                <div className="bg-green-700 text-white px-6 py-4">
+                    <h2 className="text-3xl font-bold">Mexican Grand Prix</h2>
+                    <p className="text-sm opacity-90">Autódromo Hermanos Rodríguez, Mexico City</p>
+                </div>
+
+                {/* Media Section */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-6 pt-6">
+                    <div>
+                        <p className="text-sm text-gray-600 mb-2">Track Layout</p>
+                        <img
+                            src={mexicotrack}
+                            alt="Mexico Track Layout"
+                            className="rounded-lg w-full h-95"
+                        />
+                    </div>
+                    <div>
+                        <p className="text-sm text-gray-600 mb-2">Circuit Photo</p>
+                        <img
+                            src={mexicocircuit}
+                            alt="Mexico Circuit"
+                            className="rounded-lg w-full h-95"
+                        />
+                    </div>
+                    <div>
+                        <p className="text-sm text-gray-600 mb-2">Trophy</p>
+                        <img
+                            src={mexicotrophy}
+                            alt="Mexico GP Trophy"
+                            className="rounded-lg w-full h-95"
+                        />
+                    </div>
+                </div>
+
+                {/* Description */}
+                <div className="px-6 pt-4">
+                    <p className="text-gray-700 text-base mb-4">
+                        <strong>Description:</strong> The Autódromo Hermanos Rodríguez sits at high altitude in Mexico City, making it a challenge for engines and cooling. With its long straights and the famous stadium section, the Mexican GP delivers drama and energy like no other.
+                    </p>
+                </div>
+
+                {/* Track Info Section */}
+                <div className="px-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <p className="text-gray-700"><strong>Track Length:</strong> 4.304 km</p>
+                        <p className="text-gray-700"><strong>No. of Turns:</strong> 17</p>
+                        <p className="text-gray-700"><strong>Avg Speeds:</strong> ~210 km/h</p>
+                        <p className="text-gray-700"><strong>Speed Traps:</strong> 2</p>
+                        <p className="text-gray-700"><strong>No. of Laps:</strong> 71</p>
+                        <p className="text-gray-700"><strong>No. of Races:</strong> 23 (as of 2024)</p>
+                    </div>
+
+                    <div>
+                        <p className="text-gray-700"><strong>Opened:</strong> 1963 (Returned in 2015)</p>
+                        <p className="text-gray-700"><strong>Most Memorable Race:</strong> 2021 – Checo on the podium in front of his home crowd</p>
+                        <p className="text-gray-700"><strong>Driver with Most Wins:</strong> Max Verstappen (5)</p>
+                    </div>
+                </div>
+            </div>
+            <div className="max-w-4xl mx-auto mt-10 bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
+  {/* Header */}
+  <div className="bg-green-600 text-white px-6 py-4">
+    <h2 className="text-3xl font-bold">Brazilian Grand Prix</h2>
+    <p className="text-sm opacity-90">Autódromo José Carlos Pace (Interlagos), São Paulo</p>
+  </div>
+
+  {/* Media Section */}
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-6 pt-6">
+    <div>
+      <p className="text-sm text-gray-600 mb-2">Track Layout</p>
+      <img 
+        src={braziltrack}
+        alt="Brazil Track Layout" 
+        className="rounded-lg w-full h-95"
+      />
+    </div>
+    <div>
+      <p className="text-sm text-gray-600 mb-2">Circuit Photo</p>
+      <img 
+        src={brazilcircuit}
+        alt="Brazil Circuit" 
+        className="rounded-lg w-full h-95"
+      />
+    </div>
+    <div>
+      <p className="text-sm text-gray-600 mb-2">Trophy</p>
+      <img 
+        src={braziltrophy} 
+        alt="Brazil GP Trophy" 
+        className="rounded-lg w-full h-95"
+      />
+    </div>
+  </div>
+
+  {/* Description */}
+  <div className="px-6 pt-4">
+    <p className="text-gray-700 text-base mb-4">
+      <strong>Description:</strong> Interlagos is one of F1’s most historic and thrilling circuits. With its unique figure-8 layout, unpredictable weather, passionate fans, and legendary moments, it’s a fan-favorite and a key venue for championship deciders.
+    </p>
+  </div>
+
+  {/* Track Info Section */}
+  <div className="px-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div>
+      <p className="text-gray-700"><strong>Track Length:</strong> 4.309 km</p>
+      <p className="text-gray-700"><strong>No. of Turns:</strong> 15</p>
+      <p className="text-gray-700"><strong>Avg Speeds:</strong> ~205 km/h</p>
+      <p className="text-gray-700"><strong>Speed Traps:</strong> 1</p>
+      <p className="text-gray-700"><strong>No. of Laps:</strong> 71</p>
+      <p className="text-gray-700"><strong>No. of Races:</strong> 50 (as of 2024)</p>
+    </div>
+
+    <div>
+      <p className="text-gray-700"><strong>Opened:</strong> 1940 (F1 debut in 1973)</p>
+      <p className="text-gray-700"><strong>Most Memorable Race:</strong> 2008 – Hamilton wins the championship on the final corner of the final lap</p>
+      <p className="text-gray-700"><strong>Driver with Most Wins:</strong> Alain Prost (6)</p>
+    </div>
+  </div>
+</div>
 
         </div>
     );
