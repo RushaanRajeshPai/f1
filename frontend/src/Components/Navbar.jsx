@@ -6,9 +6,6 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
 
     const navigate = useNavigate()
-    const handleRegister = () => {
-        navigate('/login')
-    }
 
     return (
         <div>
@@ -20,7 +17,7 @@ const Navbar = () => {
                     </button>
 
                     <div className="hidden lg:flex space-x-7" id="navbar-menu">
-                        <Link to="#" className="text-white text-xl mt-2 font-exo hover:text-red-600 hover:underline hover:underline-offset-4">Results</Link>
+                        <Link to="/result" className="text-white text-xl mt-2 font-exo hover:text-red-600 hover:underline hover:underline-offset-4">Results</Link>
 
                         <Link to="/standings" className="text-white text-xl mt-2 font-exo hover:text-red-600 hover:underline hover:underline-offset-4">
                             Standings</Link>
@@ -29,7 +26,7 @@ const Navbar = () => {
 
                         <Link to="#" className="text-white text-xl mt-2 font-exo hover:text-red-600 hover:underline hover:underline-offset-4">Pit Stop Circus</Link>
                         
-                        <button onClick={handleRegister} className="font-exo text-lg font-bold uppercase px-6 h-12 bg-black text-red-500 border-2 border-red-500 rounded-full shadow-md hover:bg-red-500 hover:text-black transition-all duration-300 hover:shadow-red-500/50">
+                        <button onClick={()=>{navigate('/login')}} className="font-exo text-lg font-bold uppercase px-6 h-12 bg-black text-red-500 border-2 border-red-500 rounded-full shadow-md hover:bg-red-500 hover:text-black transition-all duration-300 hover:shadow-red-500/50">
                             Register
                         </button>
                     </div>
