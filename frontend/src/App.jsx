@@ -7,6 +7,9 @@ import Standings from './Components/Standings.jsx'
 import Predict from "./Components/Predict.jsx";
 import Result from "./Components/ResultComponent/Result.jsx";
 
+import Venues from './Components/VenuesComponent/Venues.jsx'
+
+
 function App() {
 
   return (
@@ -17,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path='/result' element={<Result />} />
           <Route path="/predict" element={<Predict/>} />
+          <Route path="/venue" element={<Venues />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/standings" element={<Standings />} />

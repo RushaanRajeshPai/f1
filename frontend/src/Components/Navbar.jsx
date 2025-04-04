@@ -22,7 +22,7 @@ const Navbar = () => {
                         <Link to="/standings" className="text-white text-xl mt-2 font-exo hover:text-red-600 hover:underline hover:underline-offset-4">
                             Standings</Link>
 
-                        <Link to="#" className="text-white text-xl mt-2 font-exo hover:text-red-600 hover:underline hover:underline-offset-4">Venues</Link>
+                        <Link to="/venue" className="text-white text-xl mt-2 font-exo hover:text-red-600 hover:underline hover:underline-offset-4">Venues</Link>
 
                         <Link to="#" className="text-white text-xl mt-2 font-exo hover:text-red-600 hover:underline hover:underline-offset-4">Pit Stop Circus</Link>
                         
